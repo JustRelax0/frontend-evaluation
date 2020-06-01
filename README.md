@@ -11,7 +11,7 @@ We need to know where you are at, how you think, and how you learn so we can det
 Alright on to the fun part 🎉🎉
 
 ## Here is what you'll build.
-- Use the [Star Wars API](https://swapi.dev/) to get a list of all the in the Star Wars Universe.
+- Use the [Star Wars API](https://swapi.dev/) to get a list of all the planets in the Star Wars Universe.
 - Display all of those planets in a list on the front page of your app.
 - Add a text input at the top of the page that allows a user to filter the list of planets.
 - When a user clicks on a planet, they should navigate to a new page that shows a list of the residents of the planet fetched from the Star Wars API.
