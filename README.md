@@ -31,7 +31,7 @@ Speaking of extra points...
   - [Sass](https://sass-lang.com/) for styling.
   - [React Router](https://reacttraining.com/react-router/) for routing.
 - Optimizing
-  - various features as as fast as possible.
+  - various features are as fast as possible.
   - Re-use of components
 
 
