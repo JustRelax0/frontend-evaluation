@@ -1,7 +1,9 @@
-
 {
   "dependencies": {
     "axios": "^0.24.0",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
     "css-loader": "^6.7.1",
     "express": "^4.17.1",
     "mini-css-extract-plugin": "^2.6.0",

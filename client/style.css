@@ -1,0 +1,9 @@
+.pageNav:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.planet:hover {
+  cursor: pointer;
+  color: red;
+}
