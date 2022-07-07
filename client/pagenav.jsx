@@ -6,7 +6,7 @@ const Pagenav = (props) => {
   };
 
   return (
-    <div>
+    <div className="pageNavAll">
       <span className="pageNav" onClick={pageChanger}>
         1
       </span>

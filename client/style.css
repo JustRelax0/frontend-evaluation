@@ -1,9 +1,22 @@
+.pageNavAll {
+  margin-top: 50px;
+}
+
+.pageNav {
+  margin-right: 20px;
+}
+
 .pageNav:hover {
   cursor: pointer;
   color: red;
 }
 
 .planet:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.planetListHeader:hover {
   cursor: pointer;
   color: red;
 }

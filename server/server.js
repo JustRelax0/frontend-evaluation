@@ -15,7 +15,28 @@ app.post("/planets", (req, res) => {
     if (error) {
       res.status(500).send(error);
     } else {
-      res.status(200).send(JSON.stringify(result));
+      res.status(200).send(result);
+    }
+  });
+});
+
+app.post("/planetSearch", (req, res) => {
+  console.log(req.body.data);
+  helpers.getPlanet(req.body.data, (error, result) => {
+    if (error) {
+      res.status(500).send(error);
+    } else {
+      res.status(200).send(result);
+    }
+  });
+});
+
+app.get("/allPlanets", (req, res) => {
+  helpers.getAllPlanets((error, result) => {
+    if (error) {
+      res.status(500).send(error);
+    } else {
+      res.status(200).send(result);
     }
   });
 });
