@@ -56,7 +56,6 @@ const getPlanet = (planet, cb) => {
       for (let i = 0; i < residents.length; i++) {
         newData.push(residents[i].data);
       }
-      console.log(newData);
       cb(null, newData);
     })
     .catch((error) => {

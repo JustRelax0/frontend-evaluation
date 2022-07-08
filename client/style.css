@@ -16,6 +16,11 @@
   color: red;
 }
 
+.resident:hover {
+  cursor: pointer;
+  color: red;
+}
+
 .planetListHeader:hover {
   cursor: pointer;
   color: red;

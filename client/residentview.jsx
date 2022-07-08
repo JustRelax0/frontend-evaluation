@@ -1,16 +1,18 @@
 import React from "react";
 
-const ResidentView = (props) => {
-  <div>
-    <div>{props.name}</div>
-    <div>{props.height}</div>
-    <div>{props.mass}</div>
-    <div>{props.hair_color}</div>
-    <div>{props.skin_color}</div>
-    <div>{props.eye_color}</div>
-    <div>{props.birth_year}</div>
-    <div>{props.gender}</div>
-  </div>;
+const Residentview = (props) => {
+  return (
+    <div>
+      <div>{props.currentResidentInfo.name}</div>
+      <div>{props.currentResidentInfo.height}</div>
+      <div>{props.currentResidentInfo.mass}</div>
+      <div>{props.currentResidentInfo.hair_color}</div>
+      <div>{props.currentResidentInfo.skin_color}</div>
+      <div>{props.currentResidentInfo.eye_color}</div>
+      <div>{props.currentResidentInfo.birth_year}</div>
+      <div>{props.currentResidentInfo.gender}</div>
+    </div>
+  );
 };
 
 export default Residentview;

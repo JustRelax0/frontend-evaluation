@@ -6,6 +6,7 @@ const Residentlist = (props) => (
     {props.residents.map((resident) => {
       return (
         <Resident
+          resident={resident}
           name={resident.name}
           height={resident.height}
           mass={resident.mass}
@@ -14,6 +15,7 @@ const Residentlist = (props) => (
           eye_color={resident.eye_color}
           birth_year={resident.birth_year}
           gender={resident.gender}
+          residentViewNav={props.residentViewNav}
         />
       );
     })}
